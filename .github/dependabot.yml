@@ -1,0 +1,12 @@
+version: 2
+
+updates:
+  - package-ecosystem: 'npm'
+    directory: '/'
+    schedule:
+      interval: 'weekly'
+    reviewers:
+      - INRIX-Yuguo-Li
+    ignore:
+      - dependency-name: 'typescript'
+        versions: ['^4.5.0']
