@@ -4,9 +4,6 @@ updates:
   - package-ecosystem: 'npm'
     directory: '/'
     schedule:
-      interval: 'weekly'
+      interval: 'daily'
     reviewers:
       - INRIX-Yuguo-Li
-    ignore:
-      - dependency-name: 'typescript'
-        versions: ['^4.5.0']
