@@ -1,0 +1,4 @@
+name: 🔒 Deploy application Helm Chart to K8s cluster
+
+on:
+  push
