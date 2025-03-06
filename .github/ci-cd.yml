@@ -1,0 +1,15 @@
+name: CI/CD
+run-name: ${{ inputs.description || 'CI/CD' }}
+
+on:
+  pull_request:
+  push:
+    branches: [
+      dev,
+    ]
+  workflow_dispatch:
+    inputs:
+      description:
+        required: true
+        type: string
+        description: Short job run description
